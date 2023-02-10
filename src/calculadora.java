@@ -7,7 +7,12 @@ public class calculadora {
     static final int MULTIPLICACION = 3;
     static final int DIVISION = 4;
 
-
+    /**
+     * @param device --> operación a realizar (SUMA, RESTA, MULTIPLICACIÓN, DIVISIÓN)
+     * @param num1 --> primer numero de la operación
+     * @param num2 --> segundo numero de la operación (divisor en caso de division)
+     * @return resultado
+     */
     public static Float realizar(int device, float num1, float num2){
 
         switch (device){

@@ -8,6 +8,40 @@ public class calculadora {
     static final int DIVISION = 4;
 
 
+    public static Float realizar(int device, float num1, float num2){
+
+        switch (device){
+            case SUMA:
+                try{
+                    resultado = num1 + num2;
+                }catch (Exception e){
+                    System.out.println("Error");
+                }
+                break;
+            case RESTA:
+                try{
+                    resultado = num1 - num2;
+                }catch (Exception e){
+                    System.out.println("Error");
+                }
+                break;
+            case MULTIPLICACION:
+                try{
+                    resultado = num1*num2;
+                }catch (Exception e){
+                    System.out.println("Error");
+                }
+                break;
+            case DIVISION:
+                try{
+                    resultado = num1/num2;
+                }catch (Exception e){
+                    System.out.println("Error");
+                }
+                break;
+        }
+        return resultado;
+    }
 
 }
 

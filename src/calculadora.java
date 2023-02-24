@@ -46,6 +46,11 @@ public class calculadora {
                 }
                 break;
             case RAIZ:
+                try{
+                    resultado = Math.pow(num1, 1.0 / num2); //num1 es el radicando y num2 el indice
+                }catch (Exception e){
+                    System.out.println("Error");
+                }
         }
         return resultado;
     }

@@ -53,7 +53,7 @@ public static Float realizar(int device, float num1, float num2){
 -Tercer paso: Creamos el JavaDoc para que se entienda mejor el programa.
 ```
 /**
-     * @param device --> operación a realizar (SUMA, RESTA, MULTIPLICACIÓN, DIVISIÓN)
+     * @param device --> operación a realizar (SUMA, RESTA, MULTIPLICACIÓN, DIVISIÓN, RAIZ)
      * @param num1 --> primer numero de la operación
      * @param num2 --> segundo numero de la operación (divisor en caso de division)
      * @return resultado o null en caso de fallo.
